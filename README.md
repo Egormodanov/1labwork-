@@ -141,7 +141,7 @@ public class Main {
                     else out.printf("x < %s or x > 0", b); // случай для a > 0, b < 0
                 }
                 else{
-                    if (b > 0) out.printf("0 < x < s", b); случай для a < 0, b > 0
+                    if (b > 0) out.printf("0 < x < %s", b); случай для a < 0, b > 0
                     else out.printf("%s < x < 0", b); случай для a < 0, b < 0
                 }
             }
