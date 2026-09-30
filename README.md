@@ -10,7 +10,7 @@ graph TD
     I -- Нет --> J[b > 0]
     I -- Да --> K[/Вывод: "any x without 0"/]
     J -- Да --> H[/Вывод: "any x without 0 and b"/]
-    j -- Нет --> V[/Вывод: "any x without b and 0"/]
+    J -- Нет --> V[/Вывод: "any x without b and 0"/]
     V --> Z
     H --> Z
     K --> Z
